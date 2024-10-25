@@ -40,12 +40,17 @@ h2 {
 
 .consistent-schedule h2,
 .schedule-posts h2,
-.create-post h2, .ai-content h2 {
+.create-post h2,
+.ai-content h2 {
   margin-bottom: 20px;
 }
 .schedule-posts h2,
 .growth-followers h2 {
   text-align: center;
+}
+
+.growth-followers h2, .ai-content h2{
+  white-space: pre-line;
 }
 
 /* HEADER */
@@ -139,6 +144,6 @@ h2 {
   background-color: var(--yellow-500);
 }
 .ai-content img {
-  max-width: 240px
+  max-width: 240px;
 }
 /* END AI CONTENT*/
