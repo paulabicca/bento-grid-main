@@ -1,0 +1,109 @@
+@media (min-width: 950px) {
+  section {
+    padding: 20px;
+    margin-bottom: 0px;
+  }
+  .container {
+    max-width: 1300px;
+    grid-template-columns: 22% 0% 23% 12% 13% 18%;
+    grid-template-areas:
+      "create-post  header header header header schedule-posts "
+      "create-post multiple-platforms multiple-platforms consistent-schedule consistent-schedule schedule-posts"
+      "ai-content multiple-platforms multiple-platforms consistent-schedule consistent-schedule schedule-posts"
+      "ai-content audience-growth audience-growth growth-followers growth-followers growth-followers ";
+  }
+
+  .create-post h2,
+  .growth-followers h2,
+  .ai-content h2 {
+    font-size: var(--font-h1);
+    font-weight: var(--font-weight-400);
+  }
+  .image--container,
+  .image--container img {
+    position: relative;
+    object-fit: cover;
+  }
+
+  /* HEADER */
+  .header {
+    grid-area: header;
+    padding: 30px;
+  }
+  .header img {
+    height: 35px;
+    max-width: 223px;
+  }
+
+  /* CREATE POST*/
+  .create-post {
+    grid-area: create-post;
+  }
+  .create-post img {
+    max-width: 177px;
+  }
+
+  /* SCHEDULE POSTS */
+  .schedule-posts {
+    grid-area: schedule-posts;
+  }
+  .schedule-posts-image--container {
+    height: 300px;
+    display: flex;
+  }
+  .schedule-posts-image--container img {
+    max-width: 200px;
+    object-position: left;
+    border-radius: 10px 0px 0px 10px;
+    left: 20px;
+  }
+
+  /* CONSISTENT SCHEDULE */
+  .consistent-schedule {
+    grid-area: consistent-schedule;
+  }
+  .consistent-schedule h2 {
+    white-space: pre-line;
+    font-size: var(--font-h1);
+    font-weight: var(--font-weight-400);
+  }
+  .consistent-schedule-image--container {
+    height: 118px;
+    display: flex;
+  }
+  .consistent-schedule-image--container img {
+    width: 100%;
+    max-width: 280px;
+    object-position: top;
+    border-radius: 10px 10px 0px 0px;
+    top: 36px;
+    margin: 0 auto;
+  }
+
+/* AUDIENCE GROWTH*/
+  .audience-growth {
+    grid-area: audience-growth;
+    text-align: center;
+  }
+  .audience-growth h2 {
+    font-size: var(--font-desktop);
+  }
+
+
+/* GROWTH FOLLOWERS */
+  .growth-followers {
+    grid-area: growth-followers;
+    display: flex;
+  }
+
+/* AI CONTENT*/
+  .ai-content {
+    grid-area: ai-content;
+  }
+
+  /* MULTIPLE ACCOUNTS */
+  .multiple-platforms {
+    grid-area: multiple-platforms;
+  }
+
+}

@@ -97,7 +97,7 @@ h2 {
 }
 /* END SCHEDULE POSTS */
 
-/* END GROWTH FOLLOWERS */
+/* GROWTH FOLLOWERS */
 .growth-followers {
   background-color: var(--purple-500);
   color: var(--white);
@@ -147,3 +147,5 @@ h2 {
   max-width: 240px;
 }
 /* END AI CONTENT*/
+
+
